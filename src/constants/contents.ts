@@ -39,17 +39,20 @@ export const FOOTER_CONTENT = {
     {
       title: 'Contact',
       items: [
-        { label: 'Mail', value: 'Morib@gmail.com' },
-        { label: 'Insta', value: 'gmail.com' },
+        { label: 'Mail', value: 'morib0615@gmail.com', },
+        { label: 'Insta', value: 'https://www.instagram.com/morib.official' },
       ],
     },
     {
       title: 'Resource',
-      items: ['서비스 이용 약관', '개인정보 처리방침'],
+      items: [
+        { label: '서비스 이용 약관', value: '', src: 'https://phase-cheek-9f3.notion.site/' },
+        { label: '개인정보 처리방침', value: '', src: 'https://phase-cheek-9f3.notion.site/718a1dfd45b247989946883e802b5768' },
+      ],
     },
     {
       title: 'Service',
-      items: ['Team MORIB', 'Copyright 2024. MORIB All rights reserved.'],
+      items: ['Team MORIB', 'Copyright 2025. MORIB All rights reserved.'],
     },
   ],
 };
@@ -68,3 +71,21 @@ export const MAIN_SECTION_CONTENT = {
   },
   description: '시간을 소중히 여긴다면, 모립과 함께 집중해보세요.',
 };
+
+export const FEATURE_LIST = ['대시보드', '할 일 관리', '허용 서비스 등록', '몰입 타이머', '피드백 알림', '소셜 기능', '몰입 시간 트래킹']
+
+export const DOWNLOAD_MORIB_APP = [
+  {
+    title: 'macOS용 다운로드(유니버셜)',
+    resourceSrc: '/files/file.dmg'
+  },
+  {
+    title: 'macOS용 다운로드(Apple Silicon)',
+    resourceSrc: '/files/file.dmg'
+
+  },
+  {
+    title: 'macOS용 다운로드(Intel 기반 Mac)',
+    resourceSrc: '/files/file.dmg'
+  },
+]
